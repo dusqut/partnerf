@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .filters-container,
+  .main-content-container {
+    max-width: 100%;
+    flex: none; /* Reset flex ratios */
+  }
+}
+
